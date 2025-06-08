@@ -1,9 +1,12 @@
-streamlit>=1.32.0
+streamlit==1.32.0
 transformers>=4.38.2
 torch>=2.2.1
 PyPDF2>=3.0.1
-pdfplumber>=0.11.0
-pandas>=2.2.1
-numpy>=1.26.4
-spacy>=3.7.4
-python-dotenv>=1.0.1
+pdfplumber==0.10.3
+pandas==2.2.1
+numpy==1.26.4
+spacy==3.7.4
+python-dotenv==1.0.1
+medspacy==0.2.0.0
+scispacy==0.5.3
+en-core-sci-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_md-0.5.3.tar.gz
