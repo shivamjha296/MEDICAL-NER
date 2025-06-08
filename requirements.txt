@@ -1,14 +1,43 @@
-streamlit==1.32.0
-transformers>=4.38.2
-torch>=2.2.1
-PyPDF2>=3.0.1
-pdfplumber==0.10.3
-pandas==2.2.1
-numpy==1.26.4
-spacy==3.7.4
-python-dotenv==1.0.1
-medspacy==0.2.0.0
-scispacy==0.5.3
-en-core-sci-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_md-0.5.3.tar.gz
+# Core web framework
+streamlit
+
+# Data manipulation and analysis
+pandas
+numpy
+
+# PDF processing
 PyMuPDF
+
+# OCR (Optical Character Recognition)
 pytesseract
+Pillow
+
+# Natural Language Processing
+spacy
+transformers
+torch
+
+# Additional NLP dependencies
+tokenizers
+
+# Model dependencies for transformers
+safetensors
+
+# Utilities
+requests
+urllib3
+
+# Additional dependencies for functionality
+openpyxl
+xlsxwriter
+
+# For better regex and text processing
+regex
+
+# Date/time utilities
+python-dateutil
+
+# Optional packages (install separately if needed)
+# datasets  # May cause issues on some systems
+# accelerate  # May cause issues on some systems  
+# sentencepiece  # Requires build tools on Windows
